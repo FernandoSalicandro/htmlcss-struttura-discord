@@ -10,6 +10,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 /* COMMON */
 
 .container {
@@ -17,22 +21,65 @@ img {
     margin: 0 auto;
     /* debug */
     border: 1px solid black;
+    height: 80px;
 }
 
-.flex-container {
+.flex {
     display: flex;
+    flex-direction: row;
     /* debug */
-    background-color: lightcoral height: 400px;
+    background-color: lightcoral;
     border: 1px solid black;
 }
+
+
 
 /* HEADER  */
+/* Creo header */
 .header {
     /* debug */
-    background-color: lightgreen;
-    height: 80px;
-    border: 1px solid black;
+    background-color: lightskyblue;
+    /* height: 80px; */
+    /* border: 1px solid black; */
 }
+
+/* creo barra di navigazione */
+.nav-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    /* debug */
+    /* border: 1px solid black; */
+    /* height:80px; */
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    background-color: rgb(255, 165, 0);
+    /* border: 1px solid black; */
+    /* height: 100%; */
+}
+
+.logo {
+    padding: 10px;
+}
+
+.login {
+    padding: 10px;
+}
+
+.link-container a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 /* FOOTER */
 /* debug*/
@@ -40,4 +87,5 @@ img {
     background-color: lightgreen;
     height: 80px;
     border: 1px solid black;
+    margin-top: 30px;
 }
