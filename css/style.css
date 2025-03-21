@@ -38,6 +38,7 @@ ul {
 /* Creo header */
 .header {
     /* debug */
+    margin: 0;
     background-color: lightskyblue;
     /* height: 80px; */
     /* border: 1px solid black; */
@@ -78,7 +79,24 @@ ul {
     color: black;
 }
 
+/* CREO SEZIONE IN EVIDENZA */
+.in-evidenza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 135);
+    height: 200px;
+}
 
+.pinkbox {
+    display: flex;
+    width: 60%;
+    height: 150px;
+    background-color: fuchsia;
+    /* border:1px solid pink; */
+}
+
+/* CREO MAIN */
 
 
 /* FOOTER */
