@@ -1,0 +1,20 @@
+/* RESET RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
