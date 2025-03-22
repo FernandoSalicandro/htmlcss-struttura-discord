@@ -20,7 +20,7 @@ ul {
 
     width: 80%;
     margin: 0px auto;
-    border:1px dashed black;
+    border: 1px dashed black;
 }
 
 .main {
@@ -50,20 +50,22 @@ ul {
     background-color: grey;
 }
 
-.bg-dgreen{
+.bg-dgreen {
     background-color: darkgreen;
 }
+
 /* paddings */
 .p-30 {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 /* heights */
-.h-350{
+.h-350 {
     height: 350px;
 }
 
-.h200{
+.h200 {
     height: 200px;
 }
 
@@ -78,8 +80,9 @@ ul {
 
 /* borders */
 .border {
-border: 1px dashed black;
+    border: 1px dashed black;
 }
+
 /* flex propreties */
 .row-reverse {
     flex-direction: row-reverse;
@@ -92,7 +95,7 @@ border: 1px dashed black;
 /* Creo header */
 .header {
     background-color: lightskyblue;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -102,7 +105,7 @@ border: 1px dashed black;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    border:1px dashed black;
+    border: 1px dashed black;
 }
 
 .flex-nav {
@@ -112,7 +115,7 @@ border: 1px dashed black;
     align-items: center;
     background-color: rgb(255, 165, 0);
     border: 1px dashed black;
-   
+
 }
 
 .logo {
@@ -121,7 +124,7 @@ border: 1px dashed black;
     padding-left: 0px;
     border: 1px dashed black;
     text-align: left;
-   
+
 }
 
 .login {
@@ -178,14 +181,14 @@ footer {
 }
 
 .footer-top {
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin-top: 10px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     border-bottom: 1px solid white;
     height: 300px;
 }
 
-.col-left{
+.col-left {
     background-color: rgb(214, 139, 152);
     border: 1px dashed black;
 }
@@ -201,17 +204,17 @@ footer {
 
 .footer-bottom {
     background-color: aquamarine;
-    height:40px;
+    height: 40px;
     justify-content: space-between;
     align-items: center;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-.footer-bottom>*{
+.footer-bottom>* {
     background-color: pink;
     color: black;
-    border:1px dashed black;
+    border: 1px dashed black;
 
 }
